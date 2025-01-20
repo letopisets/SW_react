@@ -7,12 +7,21 @@ import friend6 from '../assets/friend6.jpg'
 import friend7 from '../assets/friend7.jpg'
 import friend8 from '../assets/friend8.jpg'
 import friend9 from '../assets/friend9.jpg'
+import {useEffect} from "react";
+
 
 export const navItems = ['Home', 'About me', 'Star Wars', 'Contacts']
 
 export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7,friend8,friend9]
 
-export const  openingCrawl  = 'It is a period of civil war.\n' +
+// eslint-disable-next-line react-hooks/rules-of-hooks
+
+
+
+
+
+ /*
+    'It is a period of civil war.\n' +
     '        Rebel spaceships, striking\n' +
     '        from a hidden base, have won\n' +
     '        their first victory against\n' +
@@ -32,4 +41,4 @@ export const  openingCrawl  = 'It is a period of civil war.\n' +
     '        starship, custodian of the\n' +
     '        stolen plans that can save her\n' +
     '        people and restore\n' +
-    '        freedom to the galaxy....'
+    '        freedom to the galaxy....'*/
