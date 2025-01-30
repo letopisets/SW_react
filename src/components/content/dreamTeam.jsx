@@ -4,7 +4,7 @@ import Friend from "./friend.jsx"
 
 const DreamTeam = () => {
     return(
-        <section className="float-end border">
+        <section className="float-right border">
             <h2 className="">Dream team</h2>
             {friends.map((friend, index) => <Friend key={index} picture={friend} pos={index+1}/>)}
             {/*<img className="col-4 p-1" src={friend2} alt="Friend"/>*/}
