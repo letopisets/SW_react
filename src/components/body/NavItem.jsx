@@ -1,4 +1,7 @@
-const NavItem = ({itemTitle}) => (
-    <li className="nav-item btn btn-danger mx-1">{itemTitle}</li>
-)
-export default NavItem
+const NavItem = ({itemTitle, changePage}) => {
+    return (
+        <li onClick={() => changePage(itemTitle)} className="bg-red-color text-lg border-black border-2 rounded-sm p-1 cursor-pointer hover:bg-red-500">{itemTitle}</li>
+    );
+};
+
+export default NavItem;

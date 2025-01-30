@@ -1,48 +1,91 @@
 
 
-header, footer {
-    background-color: rgba(60, 69, 67, 0.6);
-}
+/*header, footer {*/
+/*    background-color: rgba(60, 69, 67, 0.6);*/
+/*}*/
 
-/* header */
+/*!* header *!*/
 
-/* main */
+/*!* main *!*/
 
-.bottomLeft {
-    border-bottom-left-radius: 1rem;
-}
+/*.bottomLeft {*/
+/*    border-bottom-left-radius: 1rem;*/
+/*}*/
 
-.bottomRight {
-    border-bottom-right-radius: 1rem;
-}
+/*.bottomRight {*/
+/*    border-bottom-right-radius: 1rem;*/
+/*}*/
 
-.farGalaxy {
-    font-size: 2em;
-    letter-spacing: 0.2em;
-    line-height: 1.5;
-    text-align: justify;
-    padding: 0.2em;
-}
+/*.farGalaxy {*/
+/*    font-size: 2em;*/
+/*    letter-spacing: 0.2em;*/
+/*    line-height: 1.5;*/
+/*    text-align: justify;*/
+/*    padding: 0.2em;*/
+/*}*/
 
-.float-start {
-    box-shadow: 10px 10px rgba(60, 69, 67, 0.6);
-}
+/*.float-start {*/
+/*    box-shadow: 10px 10px rgba(60, 69, 67, 0.6);*/
+/*}*/
 
-/* footer */
+/*!* footer *!*/
 
-footer {
-    height: 5rem;
-}
+/*footer {*/
+/*    height: 5rem;*/
+/*}*/
 
-/* bootstrap customizing */
+/*!* bootstrap customizing *!*/
 
-.btn-danger {
-    border: 2px solid black;
-    background-color: rgba(204, 3, 35, 0.5);
-    border-radius: 5px;
-    color: #eedb00;
-}
+/*.btn-danger {*/
+/*    border: 2px solid black;*/
+/*    background-color: rgba(204, 3, 35, 0.5);*/
+/*    border-radius: 5px;*/
+/*    color: #eedb00;*/
+/*}*/
 
-.border {
-    border-color: #eedb00 !important;
-}
+/*.border {*/
+/*    border-color: #eedb00 !important;*/
+/*}*/
+
+/*!*forms*!*/
+/*.forms{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+/*form {*/
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*}*/
+/*.contact_text, select, option {*/
+/*    width: 100%;*/
+/*    padding: 12px 20px;*/
+/*    margin: 10px 15px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.sub {*/
+/*    width: 100%;*/
+/*    background-color: #374709;*/
+/*    color: white;*/
+/*    padding: 14px 20px;*/
+/*    margin: 8px 0;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.sub:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+
+/*!*div {*/
+/*    border-radius: 5px;*/
+/*    background-color: #f2f2f2;*/
+/*    padding: 20px;*/
+/*}*!*/

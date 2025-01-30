@@ -1,13 +1,9 @@
 import NavItem from "./NavItem.jsx";
 import {navItems} from "../../utils/contsants.js";
-const Navigation = () => (
-    <nav>
-        <ul className="nav fixed-top mt-2 ms-5">
-            {navItems.map(item => <NavItem itemTitle={item} key={item} />)}
-            {/*<NavItem itemTitle={'Home'} />*/}
-            {/*<NavItem itemTitle={'About me'} />*/}
-            {/*<NavItem itemTitle={'Star Wars'} />*/}
-            {/*<NavItem itemTitle={'Constact'} />*/}
+const Navigation = ({changePage}) => (
+    <nav className="fixed flex top-5 left-8">
+        <ul className="flex  gap-2">
+            {navItems.map(item => <NavItem changePage={changePage} itemTitle={item} key={item} />)}
         </ul>
     </nav>
 )
