@@ -1,10 +1,9 @@
 import NavItem from "./NavItem.jsx";
 import {navItems} from "../../utils/contsants.js";
 const Navigation = ({changePage}) => (
-    <nav>
-        <ul className="nav fixed-top mt-2 ms-5">
+    <nav className="fixed flex top-5 left-8">
+        <ul className="flex  gap-2">
             {navItems.map(item => <NavItem changePage={changePage} itemTitle={item} key={item} />)}
-
         </ul>
     </nav>
 )
