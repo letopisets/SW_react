@@ -5,7 +5,7 @@ import ContentText from "./content/content_text.jsx";
 
 const Home = () => {
     return (
-        <main className="clearfix">
+        <main className="">
             <Hero/>
             <DreamTeam/>
             <ContentText/>
