@@ -4,6 +4,7 @@ import Home from "../home.jsx";
 import {navItems} from "../../utils/contsants.js";
 import StarWars from "../content/starwars.jsx";
 import Contact from "../content/contact.jsx";
+import AboutMe from "../content/aboutme.jsx";
 
 const Main = ({page}) => {
 
