@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Text from "./ui/text.jsx";
 
 const min = 1;
 const max = 6;
@@ -46,9 +47,9 @@ const ContentText = () => {
                     <span className="sr-only"></span>
                 </div>// Отображение спиннера
             ) : message ? (
-                <p className="error">{message}</p> // Отображение сообщения об ошибке
+                <Text>{message}</Text> // Отображение сообщения об ошибке
             ) : (
-               <p className={'context__text'}>{crawl}</p>
+               <Text>{crawl}</Text>
                 // Отображение текста
             )}
         </>
