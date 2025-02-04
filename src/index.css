@@ -21,9 +21,9 @@
     }
     .spinner::before {
         content: "";
-        position: absolute;
-        box-sizing: border-box;
-        border-radius: 50%;
+        @apply absolute;
+        @apply box-border;
+        @apply rounded-full;
         inset:-10px;
         border:10px solid #FF3D00;
         animation: prixClipFix 2s infinite linear;

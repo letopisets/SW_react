@@ -1,6 +1,8 @@
+import Button from "../content/ui/button.jsx";
+
 const NavItem = ({itemTitle, changePage}) => {
     return (
-        <li onClick={() => changePage(itemTitle)} className="text-lg button__elem hover:bg-red-500">{itemTitle}</li>
+        <Button callback={() => changePage(itemTitle)} className="text-lg ">{itemTitle}</Button>
     );
 };
 
