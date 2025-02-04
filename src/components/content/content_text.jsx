@@ -48,7 +48,7 @@ const ContentText = () => {
             ) : message ? (
                 <p className="error">{message}</p> // Отображение сообщения об ошибке
             ) : (
-               <p className={'text-[2em] tracking-[.2em] leading-[1.5] text-justify p-0.5'}>{crawl}</p>
+               <p className={'context__text'}>{crawl}</p>
                 // Отображение текста
             )}
         </>

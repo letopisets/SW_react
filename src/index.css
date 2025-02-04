@@ -7,27 +7,24 @@
         @apply text-base-color;
         @apply bg-sky;
         @apply bg-fixed;
-        /*font-family: "Poller One", serif;*/
-        /*background-image: url("./assets/sky.jpg");*/
-        /*color: #eedb00;*/
-        /*background-attachment: fixed;*/
     }
     /*spinner*/
     .spinner{
-        width: 48px;
-        height: 48px;
-        border:10px solid #FFF;
-        border-radius: 50%;
-        position: relative;
-        transform:rotate(45deg);
-        box-sizing: border-box;
+        @apply w-40;
+        @apply h-40;
+        @apply relative;
+        @apply border border-white border-solid;
+        @apply rounded-full;
+        @apply rotate-45;
+        @apply box-border;
+        @apply mx-150;
     }
     .spinner::before {
         content: "";
         position: absolute;
         box-sizing: border-box;
-        inset:-10px;
         border-radius: 50%;
+        inset:-10px;
         border:10px solid #FF3D00;
         animation: prixClipFix 2s infinite linear;
     }
@@ -40,7 +37,26 @@
         100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
     }
 
-/*    */
+/*button */
+
+
+    .button__elem{
+        @apply bg-red-color;
+        @apply border-2;
+        @apply  rounded-sm;
+        @apply p-2;
+        @apply text-center;
+        @apply cursor-pointer;
+        @apply border-black;
+    }
+
+    .context__text{
+        @apply text-size;
+        @apply tracking-hightes;
+        @apply leading-12;
+        @apply text-justify;
+        @apply p-0.5;
+    }
 }
 @theme{
     --color-grey-color: rgba(60, 69, 67, 0.6);
@@ -51,4 +67,6 @@
     --color-buttom-sub: rgba(55, 71, 9, 0.75);
     --shadow-hero: 10px 10px rgba(60, 69, 67, 0.6);
     --color-grean-salat-color: #45a049;
+    --text-size: 2em;
+    --tracking-hightes: 0.2em;
 }
