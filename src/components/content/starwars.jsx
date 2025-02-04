@@ -1,10 +1,11 @@
 import {starwarsInfo} from "../../utils/contsants.js";
+import Text from "./ui/text.jsx";
 
 const StarWars = () => {
     return (
-        <div className={"context__text"}>
+        <Text>
             {starwarsInfo}
-        </div>
+        </Text>
     )
 }
 export default StarWars;
