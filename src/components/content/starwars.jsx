@@ -2,7 +2,7 @@ import {starwarsInfo} from "../../utils/contsants.js";
 
 const StarWars = () => {
     return (
-        <div className="farGalaxy">
+        <div className={"context__text"}>
             {starwarsInfo}
         </div>
     )

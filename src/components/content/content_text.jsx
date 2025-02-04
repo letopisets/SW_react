@@ -48,7 +48,8 @@ const ContentText = () => {
             ) : message ? (
                 <p className="error">{message}</p> // Отображение сообщения об ошибке
             ) : (
-                <p className="farGalaxy">{crawl}</p> // Отображение текста
+               <p className={'context__text'}>{crawl}</p>
+                // Отображение текста
             )}
         </>
     );
